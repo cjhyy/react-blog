@@ -1,6 +1,6 @@
 import * as React from 'react';
 const Logo = require('../../asset/logo.jpg');
-export default function Home() {
+export default function logo() {
   return (
     <div>
       <img src={Logo} alt='' height='80' width='80' />
