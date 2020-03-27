@@ -3,8 +3,8 @@ const Logo = require('../../asset/logo.jpg');
 export default function logo() {
   return (
     <div>
-      <img src={Logo} alt='' height='80' width='80' />
-      <p>春江花月夜</p>
+      <img src={Logo} alt='' height='44' width='44' />
+      <span>春江花月夜的个人博客</span>
     </div>
   );
 }
